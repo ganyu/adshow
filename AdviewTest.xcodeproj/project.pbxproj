@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F067A491714F93400F61BA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F067A481714F93400F61BA3 /* UIKit.framework */; };
+		7F067A4B1714F93400F61BA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F067A4A1714F93400F61BA3 /* Foundation.framework */; };
+		7F067A4D1714F93400F61BA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F067A4C1714F93400F61BA3 /* CoreGraphics.framework */; };
+		7F067A531714F93400F61BA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F067A511714F93400F61BA3 /* InfoPlist.strings */; };
+		7F067A551714F93400F61BA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F067A541714F93400F61BA3 /* main.m */; };
+		7F067A591714F93400F61BA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F067A581714F93400F61BA3 /* AppDelegate.m */; };
+		7F067A5B1714F93400F61BA3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F067A5A1714F93400F61BA3 /* Default.png */; };
+		7F067A5D1714F93500F61BA3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F067A5C1714F93500F61BA3 /* Default@2x.png */; };
+		7F067A5F1714F93500F61BA3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F067A5E1714F93500F61BA3 /* Default-568h@2x.png */; };
+		7F067A621714F93500F61BA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F067A611714F93500F61BA3 /* ViewController.m */; };
+		7F067A651714F93500F61BA3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F067A631714F93500F61BA3 /* ViewController.xib */; };
+		7F067A6E1714FA2500F61BA3 /* AdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F067A6D1714FA2500F61BA3 /* AdView.m */; };
+		7F067A721715103800F61BA3 /* AdwebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F067A701715103800F61BA3 /* AdwebViewController.m */; };
+		7F067A731715103800F61BA3 /* AdwebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F067A711715103800F61BA3 /* AdwebViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F067A451714F93400F61BA3 /* AdviewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdviewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F067A481714F93400F61BA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F067A4A1714F93400F61BA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F067A4C1714F93400F61BA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F067A501714F93400F61BA3 /* AdviewTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdviewTest-Info.plist"; sourceTree = "<group>"; };
+		7F067A521714F93400F61BA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F067A541714F93400F61BA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F067A561714F93400F61BA3 /* AdviewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdviewTest-Prefix.pch"; sourceTree = "<group>"; };
+		7F067A571714F93400F61BA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F067A581714F93400F61BA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F067A5A1714F93400F61BA3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7F067A5C1714F93500F61BA3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7F067A5E1714F93500F61BA3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7F067A601714F93500F61BA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F067A611714F93500F61BA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F067A641714F93500F61BA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7F067A6C1714FA2500F61BA3 /* AdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdView.h; sourceTree = "<group>"; };
+		7F067A6D1714FA2500F61BA3 /* AdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdView.m; sourceTree = "<group>"; };
+		7F067A6F1715103800F61BA3 /* AdwebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdwebViewController.h; sourceTree = "<group>"; };
+		7F067A701715103800F61BA3 /* AdwebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdwebViewController.m; sourceTree = "<group>"; };
+		7F067A711715103800F61BA3 /* AdwebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdwebViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F067A421714F93400F61BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F067A491714F93400F61BA3 /* UIKit.framework in Frameworks */,
+				7F067A4B1714F93400F61BA3 /* Foundation.framework in Frameworks */,
+				7F067A4D1714F93400F61BA3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F067A3C1714F93400F61BA3 = {
+			isa = PBXGroup;
+			children = (
+				7F067A4E1714F93400F61BA3 /* AdviewTest */,
+				7F067A471714F93400F61BA3 /* Frameworks */,
+				7F067A461714F93400F61BA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F067A461714F93400F61BA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F067A451714F93400F61BA3 /* AdviewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F067A471714F93400F61BA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F067A481714F93400F61BA3 /* UIKit.framework */,
+				7F067A4A1714F93400F61BA3 /* Foundation.framework */,
+				7F067A4C1714F93400F61BA3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F067A4E1714F93400F61BA3 /* AdviewTest */ = {
+			isa = PBXGroup;
+			children = (
+				7F067A6B1714FA2500F61BA3 /* AdView */,
+				7F067A571714F93400F61BA3 /* AppDelegate.h */,
+				7F067A581714F93400F61BA3 /* AppDelegate.m */,
+				7F067A601714F93500F61BA3 /* ViewController.h */,
+				7F067A611714F93500F61BA3 /* ViewController.m */,
+				7F067A631714F93500F61BA3 /* ViewController.xib */,
+				7F067A6F1715103800F61BA3 /* AdwebViewController.h */,
+				7F067A701715103800F61BA3 /* AdwebViewController.m */,
+				7F067A711715103800F61BA3 /* AdwebViewController.xib */,
+				7F067A4F1714F93400F61BA3 /* Supporting Files */,
+			);
+			path = AdviewTest;
+			sourceTree = "<group>";
+		};
+		7F067A4F1714F93400F61BA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F067A501714F93400F61BA3 /* AdviewTest-Info.plist */,
+				7F067A511714F93400F61BA3 /* InfoPlist.strings */,
+				7F067A541714F93400F61BA3 /* main.m */,
+				7F067A561714F93400F61BA3 /* AdviewTest-Prefix.pch */,
+				7F067A5A1714F93400F61BA3 /* Default.png */,
+				7F067A5C1714F93500F61BA3 /* Default@2x.png */,
+				7F067A5E1714F93500F61BA3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F067A6B1714FA2500F61BA3 /* AdView */ = {
+			isa = PBXGroup;
+			children = (
+				7F067A6C1714FA2500F61BA3 /* AdView.h */,
+				7F067A6D1714FA2500F61BA3 /* AdView.m */,
+			);
+			path = AdView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F067A441714F93400F61BA3 /* AdviewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F067A681714F93500F61BA3 /* Build configuration list for PBXNativeTarget "AdviewTest" */;
+			buildPhases = (
+				7F067A411714F93400F61BA3 /* Sources */,
+				7F067A421714F93400F61BA3 /* Frameworks */,
+				7F067A431714F93400F61BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdviewTest;
+			productName = AdviewTest;
+			productReference = 7F067A451714F93400F61BA3 /* AdviewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F067A3D1714F93400F61BA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = shenglang;
+			};
+			buildConfigurationList = 7F067A401714F93400F61BA3 /* Build configuration list for PBXProject "AdviewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F067A3C1714F93400F61BA3;
+			productRefGroup = 7F067A461714F93400F61BA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F067A441714F93400F61BA3 /* AdviewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F067A431714F93400F61BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F067A531714F93400F61BA3 /* InfoPlist.strings in Resources */,
+				7F067A5B1714F93400F61BA3 /* Default.png in Resources */,
+				7F067A5D1714F93500F61BA3 /* Default@2x.png in Resources */,
+				7F067A5F1714F93500F61BA3 /* Default-568h@2x.png in Resources */,
+				7F067A651714F93500F61BA3 /* ViewController.xib in Resources */,
+				7F067A731715103800F61BA3 /* AdwebViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F067A411714F93400F61BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F067A551714F93400F61BA3 /* main.m in Sources */,
+				7F067A591714F93400F61BA3 /* AppDelegate.m in Sources */,
+				7F067A621714F93500F61BA3 /* ViewController.m in Sources */,
+				7F067A6E1714FA2500F61BA3 /* AdView.m in Sources */,
+				7F067A721715103800F61BA3 /* AdwebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F067A511714F93400F61BA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F067A521714F93400F61BA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F067A631714F93500F61BA3 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F067A641714F93500F61BA3 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F067A661714F93500F61BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F067A671714F93500F61BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F067A691714F93500F61BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdviewTest/AdviewTest-Prefix.pch";
+				INFOPLIST_FILE = "AdviewTest/AdviewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F067A6A1714F93500F61BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdviewTest/AdviewTest-Prefix.pch";
+				INFOPLIST_FILE = "AdviewTest/AdviewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F067A401714F93400F61BA3 /* Build configuration list for PBXProject "AdviewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F067A661714F93500F61BA3 /* Debug */,
+				7F067A671714F93500F61BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F067A681714F93500F61BA3 /* Build configuration list for PBXNativeTarget "AdviewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F067A691714F93500F61BA3 /* Debug */,
+				7F067A6A1714F93500F61BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F067A3D1714F93400F61BA3 /* Project object */;
+}
